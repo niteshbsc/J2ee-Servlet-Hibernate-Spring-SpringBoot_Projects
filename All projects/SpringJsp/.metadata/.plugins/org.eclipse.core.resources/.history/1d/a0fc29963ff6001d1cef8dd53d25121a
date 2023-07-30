@@ -1,0 +1,11 @@
+package org.jsp.PreparedStatementCallback;
+
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class MyPreparedStatementCallBack implements PreparedStatement{
+	public Integer doInPreparedStatement(PreparedStatement ps) throws SQLException, DataAccessException{
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;newApp/src/org/Nitesh/newApps&apos; to &apos;newApp&apos;" description="Rename resource &apos;newApps&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/Nitesh/newApps" name="newApp" stamp="1677496248025" updateReferences="true"/>
+</session>

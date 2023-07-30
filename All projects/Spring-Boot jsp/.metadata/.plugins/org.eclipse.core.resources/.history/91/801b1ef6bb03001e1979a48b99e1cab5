@@ -1,0 +1,5 @@
+package org.jsp.springbootdemo;
+
+public class HomeController {
+
+}

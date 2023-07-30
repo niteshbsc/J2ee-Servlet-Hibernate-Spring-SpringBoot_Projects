@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HibernateNitesh/src/main/java/IMG-20211217-WA0009.jpg&apos; to &apos;pic.jpg&apos;" description="Rename resource &apos;IMG-20211217-WA0009.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/IMG-20211217-WA0009.jpg" name="pic.jpg" stamp="1679611366386" updateReferences="true"/>
+</session>

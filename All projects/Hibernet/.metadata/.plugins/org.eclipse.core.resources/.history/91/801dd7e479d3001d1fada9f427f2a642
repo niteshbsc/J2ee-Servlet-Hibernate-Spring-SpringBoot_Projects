@@ -1,0 +1,10 @@
+package org.jpa;
+
+public class FetchAllRecordJPQL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

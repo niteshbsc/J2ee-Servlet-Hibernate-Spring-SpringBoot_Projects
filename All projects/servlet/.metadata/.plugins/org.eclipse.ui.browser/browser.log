@@ -1,0 +1,33 @@
+
+Apr 24, 2023 15:26:00.35 NEW SESSION
+Apr 24, 2023 15:26:00.35 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2023 15:29:06.24 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 24, 2023 15:29:37.89 [7404:7140:0424/152937.899:ERROR:simple_version_upgrade.cc(170)] Disk cache backend fake index file has wrong magic number.
+Apr 24, 2023 15:29:37.89 [7404:7140:0424/152937.899:ERROR:simple_backend_impl.cc(738)] Simple Cache Backend: wrong file structure on disk: 3 path: C:\Users\Nitesh\AppData\Local\Google\Chrome\User Data\Default\Service Worker\CacheStorage\8cbb992fe0cd9ef960e69a214646bd270516a23e\5b5d10a4-acfb-47c4-8e97-012476777d64
+Apr 24, 2023 15:29:37.89 [7404:7140:0424/152937.899:ERROR:disk_cache.cc(205)] Unable to create cache
+Apr 24, 2023 15:35:39.58 [7404:3272:0424/153539.582:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Apr 24, 2023 15:36:04.68 [7404:3272:0424/153604.682:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Apr 24, 2023 15:36:58.77 [7404:3272:0424/153658.779:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Apr 24, 2023 16:02:53.44 [7404:3272:0424/160253.445:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+Apr 24, 2023 16:13:13.81 [7404:7576:0424/161313.813:ERROR:device_event_log_impl.cc(222)] [16:13:13.816] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Apr 24, 2023 18:39:29.55 [7404:3272:0424/183926.921:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+Apr 24, 2023 21:39:45.22 [7404:3272:0424/213944.838:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+Apr 27, 2023 10:38:27.42 [7404:3272:0427/103827.077:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Apr 27, 2023 10:38:40.88 [7404:732:0427/103840.649:ERROR:get_updates_processor.cc(264)] PostClientToServerMessage() failed during GetUpdates with error 2
+Apr 27, 2023 10:38:53.16 [7404:3272:0427/103852.725:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Apr 27, 2023 10:38:53.16 [7404:3272:0427/103852.857:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+Apr 27, 2023 10:38:53.16 [7404:3272:0427/103852.857:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+Apr 27, 2023 10:39:01.59 ERROR: Client requested cancel during Invoke()
+Apr 27, 2023 10:39:05.65 [7404:14132:0427/103905.658:ERROR:simple_version_upgrade.cc(170)] Disk cache backend fake index file has wrong magic number.
+Apr 27, 2023 10:39:06.92 [7404:14132:0427/103905.658:ERROR:simple_backend_impl.cc(738)] Simple Cache Backend: wrong file structure on disk: 3 path: C:\Users\Nitesh\AppData\Local\Google\Chrome\User Data\Default\Service Worker\CacheStorage\8cbb992fe0cd9ef960e69a214646bd270516a23e\5b5d10a4-acfb-47c4-8e97-012476777d64
+Apr 27, 2023 10:39:06.94 [7404:9812:0427/103905.658:ERROR:disk_cache.cc(205)] Unable to create cache
+Apr 27, 2023 10:39:17.19 [7404:3272:0427/103917.195:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+Apr 27, 2023 10:39:21.07 [7404:3272:0427/103921.073:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+Apr 27, 2023 10:39:26.04 [7404:7576:0427/103926.043:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Apr 27, 2023 10:39:27.46 [7404:7576:0427/103927.465:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+Apr 27, 2023 10:39:49.25 [7404:3272:0427/103949.252:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Apr 27, 2023 10:40:05.83 [7404:3272:0427/104005.832:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+Apr 27, 2023 10:40:16.66 [7404:3272:0427/104016.660:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+Apr 27, 2023 10:41:26.70 [7404:3272:0427/104126.700:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Apr 27, 2023 10:41:53.88 [7404:3272:0427/104153.871:ERROR:registration_request.cc(251)] Registration URL fetching failed.
+Apr 27, 2023 10:41:56.94 [7404:3272:0427/104156.934:ERROR:registration_request.cc(251)] Registration URL fetching failed.

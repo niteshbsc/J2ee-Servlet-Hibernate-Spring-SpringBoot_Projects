@@ -1,0 +1,5 @@
+package org.jsp.PreparedStatementCallback;
+
+public class MyPreparedStatementCallBack {
+
+}

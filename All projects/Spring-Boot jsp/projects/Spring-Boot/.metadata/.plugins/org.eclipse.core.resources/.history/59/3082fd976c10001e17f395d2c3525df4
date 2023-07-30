@@ -1,0 +1,21 @@
+package org.user.UserProject.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.user.UserProject.dto.Product;
+
+@Service
+public class ProductService {
+
+	@Autowired
+	private Product dao1;
+	
+	public ResponseEntity<ResponseStructure<Product>> saveProduct(Product product){
+		ResponseStructure<Product> structure= new ResponseStructure<Product>();
+		structure.setMessage("Product is save");
+		structure.setBody(product);
+		return new ResponseEntity<ResponseStructure<Product>> (structure, HttpStatus.CREATED);
+	}
+}

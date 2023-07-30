@@ -1,0 +1,17 @@
+package org.user.UserProject.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.user.UserProject.dto.Product;
+import org.user.UserProject.userRepository.ProductRepository;
+
+@Repository
+public class ProductDao {
+
+	@Autowired
+	private ProductRepository repository;
+	
+	public Product saveProduct(Product product) {
+		return repository.save(product);
+	}
+}

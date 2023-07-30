@@ -1,0 +1,7 @@
+127.0.0.1 - - [03/Mar/2023:15:12:22 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:15:12:28 +0530] "GET /Lifecycle_proj/ HTTP/1.1" 200 227
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:15:12:43 +0530] "GET /Lifecycle_proj/fs?nm=adarsh&pl=ranchi HTTP/1.1" 500 3745
+127.0.0.1 - - [03/Mar/2023:15:21:02 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:15:21:20 +0530] "GET /Lifecycle_proj/fs?nm=adarsh&pl=ranchi HTTP/1.1" 500 3745
+127.0.0.1 - - [03/Mar/2023:15:27:36 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [03/Mar/2023:15:27:55 +0530] "GET /Lifecycle_proj/fs?nm=nitesh&pl=banglore HTTP/1.1" 500 3745

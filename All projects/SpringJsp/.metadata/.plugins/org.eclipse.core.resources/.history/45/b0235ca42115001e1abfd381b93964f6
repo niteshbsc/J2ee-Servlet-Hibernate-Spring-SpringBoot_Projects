@@ -1,0 +1,96 @@
+package org.jsp.controller;
+
+import java.util.Scanner;
+
+import org.jsp.dao.ProductDao;
+import org.jsp.dao.UserDao;
+import org.jsp.dto.Product;
+import org.jsp.dto.User;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class UserController {
+static Scanner sc=new Scanner(System.in);
+static UserDao dao;
+static ProductDao dao1;
+
+static {
+	ApplicationContext context=new AnnotationConfigApplicationContext("org.jsp");
+	dao=context.getBean(UserDao.class);
+	dao1=context.getBean(Product.class);
+}
+
+public static void main(String[] args) {
+	System.out.println("1.Save User");
+	System.out.println("2.Update User");
+	System.out.println("3.Verify user by phone and password");
+	System.out.println("4.Verify user by Email and password");
+	System.out.println("5.Verify user by id and password");
+	int choice=sc.nextInt();
+	switch(choice) {
+	case 1:{
+		save();
+		break;
+	}
+	case 2:{
+		Update();
+		break;
+	}
+	case 3:{
+		Verify1();
+		break;
+	}
+//	case 4:{
+//		Verify2();
+//		break;
+//	}
+//	case 5:{
+//		Verify3();
+//		break;
+//	}
+	}
+}
+public static void save() {
+	System.out.println("Enter name, phone, email, and password");
+	String name=sc.next();
+	long phone=sc.nextLong();
+	String email=sc.next();
+	String password=sc.next();
+	User u=new User();
+	u.setName(name);
+	u.setEmail(email);
+	u.setPhone(phone);
+	u.setPassword(password);
+	u=dao.SaveUser(u);
+	System.out.println("User saved with Id:"+u.getId());
+}
+public static void Update() {
+System.out.println("Enter the id to update the Record");
+int id=sc.nextInt();
+System.out.println("Enter Name, Phone, Email, password to Update ");
+String name=sc.next();
+long phone=sc.nextLong();
+String email=sc.next();
+String password=sc.next();
+User u=new User();
+u.setName(name);
+u.setPhone(phone);
+u.setEmail(email);
+u.setPassword(password);
+u=dao.UpdateUser(u);
+System.out.println("User Updated with Id:"+u.getId());
+}
+public static void Verify1() {
+	System.out.println("Enter a phone and password to verify");
+	long phone=sc.nextLong();
+	String password=sc.nextLine();
+	User u=new User();
+	u=dao.verifyUser(phone, password);
+	if(u!=null) {
+	System.out.println("Valid");
+	}
+	else {
+		System.out.println("Invalid");
+	}
+}
+}

@@ -1,0 +1,5 @@
+package org.jpa.test.repository;
+
+public class UserRepository {
+
+}

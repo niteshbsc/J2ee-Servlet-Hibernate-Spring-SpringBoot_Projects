@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Nitesh\Desktop\Hibernet\HibernateLifeCycle\src\main\java\org\jsp\createTImeStamp$updatTimestam\UpdateOrder.java"/>
+			<item value="C:\Users\Nitesh\Desktop\Hibernet\employee_demo"/>
+			<item value="C:\Users\Nitesh\Desktop\Hibernet\hibernetDemo"/>
+			<item value="C:\Users\Nitesh\Desktop\Hibernet"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="org.jsp.Cache"/>
+			<item value="org.jsp.HibernateLifeCycle"/>
+			<item value="org.jsp.CompositeKey"/>
+			<item value="org.jsp.OneToManyBi"/>
+			<item value="org.jsp.ManyToOne"/>
+			<item value="org.jsp.Mapping"/>
+			<item value="org.jpa"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="CacheProject"/>
+			<item value="HibernateLifeCycle"/>
+			<item value="CompositeKey"/>
+			<item value="OneToManyBi"/>
+			<item value="ManyToOne"/>
+			<item value="JspMapping"/>
+			<item value="jpa-demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
