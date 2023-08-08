@@ -1,0 +1,27 @@
+class ArrayInsertion 
+{
+	public static void main(String[] args) 
+	{
+	  
+    int arr[20] = { 18, 30, 15, 70, 12 };  
+    int i, x, pos, n = 5;  
+    System.out.println("Array elements before insertion");  
+    for (i = 0; i < n; i++)  
+        System.out.println( arr[i]);  
+    //System.out.println("");  
+  /*
+    x = 50; // element to be inserted  
+    pos = 4;  
+    n++;  
+  
+    for (i = n-1; i >= pos; i--)  
+        arr[i] = arr[i - 1];  
+    arr[pos - 1] = x;  
+    System.out.println("Array elements after insertion");  
+    for (i = 0; i < n; i++)  
+        System.out.println(arr[i]);  
+    System.out.println("");  
+    return 0;   */
+}  
+	}
+

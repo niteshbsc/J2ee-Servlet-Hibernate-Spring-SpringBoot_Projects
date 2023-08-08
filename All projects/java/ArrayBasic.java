@@ -1,0 +1,46 @@
+class ArrayBasic 
+{  /*
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the size of the array");
+		int size=s.nextInt();
+		int[] num=new int[size];
+		System.out.println("Enter the elements");
+		for(int i=0;i<num.length;i++)
+			{
+				num[i]=s.nextInt();
+			}
+			System.out.println("Entered data in array are");
+			for(int=i;i<num.length;i++)
+		{
+			System.out.println(num[i]);
+		}
+	}
+}  */
+
+
+//class PrimePractise{
+public static void main(String[] args){
+	//Scanner sc=new Scanner(System.in);
+	//System.out.println("Enter a no.");
+	int n=3;
+	int i,m=0,flag=0;
+	m=n/2;
+	if(n==0 || n==1){
+		System.out.println("It is not a prime no.");
+	}
+	else{
+		for(i=2;i<=m;i++){
+		if(n%i==0){
+		System.out.println("It is  a prime no.");
+		flag=1;
+		break;
+	}
+	}
+	if(flag==0){
+		System.out.println("It is a prime no.");
+	}
+}
+}
+}

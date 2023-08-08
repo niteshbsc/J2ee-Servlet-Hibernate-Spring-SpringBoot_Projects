@@ -1,0 +1,39 @@
+class DriverIMobile 
+{
+	public static void main(String[] args) 
+	{
+		Mobile m=new Samsungs20();
+		m.call();
+		m.addcontact();
+		m.camera();
+
+		Samsung s=new Samsungs20();
+		s.call();
+		s.addcontact();
+		s.camera();
+	}
+}
+interface Mobile
+{
+	void call();
+	void addcontact();
+}
+interface Samsung extends Mobile
+{
+	void camera();
+}
+class Samsungs20 implements Samsung
+{
+	public void call()
+	{
+		System.out.println("call");
+	}
+	public void addcontact()
+	{
+		System.out.println("addcontact");
+	}
+	public void camera()
+	{
+		System.out.println("camera");
+	}
+}

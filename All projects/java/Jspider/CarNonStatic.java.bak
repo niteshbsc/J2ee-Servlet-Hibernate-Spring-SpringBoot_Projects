@@ -1,0 +1,21 @@
+class CarNonStatic 
+{
+	String brand;
+	String color;
+	long cc;
+	public void details()
+	{
+		System.out.println(brand);
+		System.out.println(color);
+		System.out.println(cc);
+	}
+	public static void main(String[] args) 
+	{
+		Car s1=new Car();
+		
+		Car s2=new Car();
+		
+		s1.details();
+		s2.details();
+	}
+}

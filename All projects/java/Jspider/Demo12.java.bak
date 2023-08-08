@@ -1,0 +1,12 @@
+class Demo12 
+{
+	public static void main(String[] args) 
+	{
+		meth();
+	}
+	public static void meth()
+		{
+		System.out.println("Piyush");
+		
+	    }
+}

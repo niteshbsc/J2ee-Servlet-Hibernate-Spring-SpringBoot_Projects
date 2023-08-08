@@ -1,0 +1,19 @@
+class DriverInterface 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+
+interface I1
+{
+	void m1();
+}
+class C implements I1
+{
+    public void m1()
+	{
+		System.out.println("overriden");
+	}
+}

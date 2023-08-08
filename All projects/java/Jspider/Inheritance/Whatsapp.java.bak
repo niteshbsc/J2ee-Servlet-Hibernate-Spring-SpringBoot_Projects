@@ -1,0 +1,10 @@
+class Whatsapp extends App
+{
+	String cno;
+public Whatsapp(String name,int size,String cno)
+{
+	this.name=name;
+	this.size=size;
+	this.cno=cno;
+}
+}

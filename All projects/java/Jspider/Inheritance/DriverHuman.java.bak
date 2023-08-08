@@ -1,0 +1,14 @@
+class DriverHuman 
+{
+	public static void main(String[] args) 
+	{
+		
+
+		Student s=new Student("Gorai",24,"Male","MCA",84);
+		System.out.println(e.name);
+		System.out.println(e.age);
+		System.out.println(e.gender);
+		System.out.println(e.qualification);
+		System.out.println(e.percentage);
+	}
+}

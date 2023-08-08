@@ -1,0 +1,11 @@
+class Mango extends Fruits 
+{
+	double weight;
+	public Mango(String name,String color, String origin,double weight)
+	{
+		this.name=name;
+		this.color=color;
+		this.origin=origin;
+		this.weight=weight;
+	}
+}

@@ -1,0 +1,81 @@
+import java.util.Scanner;
+class Pattern 
+{
+	public static void main(String[] args) 
+	{
+
+	/*	1.pyramid program
+
+		int i,j,n=6;
+		for(i=0;i<n;i++)
+		{
+		   for(j=n-i;j>1;j--)
+			{
+				System.out.print("");
+			}
+		
+			for(j=0;j<=i;j++)
+			{
+		
+				System.out.print("*");
+			}
+			System.out.println();
+		}   */
+
+
+
+	/*	//2.Right triangle
+
+		int i,j,n=5;
+		for(i=0;i<n;i++)  //outer loop for number of rows
+		{
+			for(j=2*(n-i);j>=0;j--)  //inner loop for spaces
+			{
+				System.out.print("");  //printing space
+			}
+			for(j=0;j<=i;j++)  //inner loop for columns
+			{
+				System.out.print("*"); //print star
+			}
+			System.out.println();  //ending line after each row
+		}  */
+
+
+
+		//3.Diamond shape pattern 
+
+
+		int i,j,n,space=1;
+		System.out.println("Enter a no. of rows");
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		space=n-1;
+		for(j=1;j<=n;j++){
+			for(i=1;i<=space;i++)
+			{
+				System.out.print();
+			}
+			space--;
+			for(i=1;i<=2*j-1;i++)
+			{
+				System.out.print("*");
+			}
+				System.out.println("");
+		}
+		space=1;
+		for(j=1;j<=n-1;j++)
+		{
+			for(i=1;i<=space;i++)
+			{
+				System.out.print("");
+			}
+			space++;
+			for(i=1;i<=2*(n-j)-1;i++)
+			{
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+
+	}
+}

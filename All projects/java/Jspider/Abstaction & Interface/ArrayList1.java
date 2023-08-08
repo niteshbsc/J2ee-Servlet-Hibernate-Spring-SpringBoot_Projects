@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+class ArrayList1 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList al=new ArrayList();
+		al.add(7);
+		al.add("Sheela");
+		al.add('z');
+		al.add(39.72);
+		al.add(null);
+		al.add(null);
+		al.remove("Sheela");
+		al.add(2,"Laila");
+		System.out.println(al);
+	}
+}

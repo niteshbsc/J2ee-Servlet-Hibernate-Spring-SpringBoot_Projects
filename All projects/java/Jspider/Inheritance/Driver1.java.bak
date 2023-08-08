@@ -1,0 +1,9 @@
+class Driver 
+{
+	public static void main(String[] args) 
+	{
+		Facebook f1=new Facebook("Facebook",50,"Niteshkumar","Idontknow");
+		System.out.println(f1.name+" "+f1.size);
+		
+	}
+}
